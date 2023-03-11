@@ -9,4 +9,6 @@
 2. Flexbox
 3. Grid
 
+Посмотреть можно [тут](https://sergei-5ergeevich.github.io/russian-travel/index.html)
+
 [Sergei Evdokimov](https://github.com/Sergei-5ergeevich/)
