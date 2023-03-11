@@ -9,8 +9,7 @@
   <title>Путешествия по России</title>
 </head>
 
-<body>
-  <div class="page">
+<body class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="территория России">
       <div class="header__lang-links">
@@ -26,7 +25,7 @@
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
         <img class="lead__image" src="./images/lead-polka.jpg" alt="Фото - Калегин Михаил" />
-        <p class="lead__caption">ваша полка верхняя</p>
+        <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
       <article class="intro">
@@ -54,7 +53,8 @@
         </ul>
       </article>
 
-      <ul class="photo-grid">
+      <section class="photo-grid">
+        <ul class="photo-grid__list">
         <li>
           <img src="./images/photo-grid-train.jpg" alt="Окно вагона" class="photo-grid__image" />
         </li>
@@ -78,12 +78,13 @@
         </li>
         <li><img src="./images/photo-grid-ergaki.jpg" alt="Туман" class="photo-grid__image" /></li>
       </ul>
+      </section>
 
       <section class="places">
         <div class="place">
           <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="https://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
           </div>
           <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image" />
@@ -100,7 +101,7 @@
         <article class="place">
           <h3 class="place__title">Кольский</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link"
               target="_blank">National Geographic</a>
           </div>
@@ -120,7 +121,7 @@
         <article class="place">
           <h3 class="place__title">Алтай</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link" target="_blank">YouTube</a>
           </div>
           <img src="./images/place-altai.jpg" alt="Алтай" class="place__image" />
@@ -137,7 +138,7 @@
         <article class="place">
           <h3 class="place__title">Зимний Байкал</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place-winter-baikal.jpg" alt="Зимний байкал" class="place__image" />
@@ -154,7 +155,7 @@
         <div class="place">
           <h3 class="place__title">Карелия</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru</a>
           </div>
           <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image" />
@@ -170,11 +171,11 @@
       </section>
 
       <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_self" class="cover__link"></a>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_self" class="cover__link">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
-        <div class="cover__background"></div>
+      </a>
       </section>
 
     </main>
@@ -198,9 +199,8 @@
           </li>
         </ul>
       </nav>
-      <p class="footer__copyright">&copy; 2023. Сергей Евдокимов</p>
+      <p class="footer__copyright">© 2023. Сергей Евдокимов</p>
     </footer>
-  </div>
 </body>
 
 </html>
